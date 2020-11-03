@@ -23,7 +23,6 @@
 
 'use strict';
 
-const numberOfFilms = +prompt ("Сколько фильмов Вы уже посмотрели", '');
 
 const personalMovieDB = {
     count: numberOfFilms,
@@ -63,3 +62,4 @@ if (i<2,i++) {
           personalMovieDB.movies[a] = b;
 }
 console.log(personalMovieDB);
+const numberOfFilms = prompt ("Сколько фильмов Вы уже посмотрели", '');
