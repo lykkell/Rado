@@ -67,3 +67,11 @@ const numberOfFilms = prompt ("Сколько фильмов Вы уже пос�
 =======
 const numberOfFilms = +prompt ("Сколько фильмов Вы уже посмотрели", '');
 >>>>>>> change promt to +prompt
+
+const personalMovieDB = {
+    count: numberOfFilms,
+    movies: {},
+    actors: {},
+    genres: [],
+    privat: false,
+};
