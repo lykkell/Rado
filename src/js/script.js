@@ -23,4 +23,4 @@
 
 "use strict";
 
-const numberOfFilms = prompt ("Сколько фильмов Вы уже посмотрели", '');
+const numberOfFilms = +prompt ("Сколько фильмов Вы уже посмотрели", '');
