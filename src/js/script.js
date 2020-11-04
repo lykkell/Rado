@@ -23,50 +23,7 @@
 
 'use strict';
 
-<<<<<<< refs/remotes/origin/greysteel
-
-const personalMovieDB = {
-    count: numberOfFilms,
-    movies: {},
-    actors: {},
-    genres: [],
-    privat: false
-};
-// Task#1
-// const a = prompt ("Один из последних просмотренных фильмов?", ""),
-//       b = +prompt ("На сколько оцените его?", ""),
-//       c = prompt ("Один из последних просмотренных фильмов?", ""),
-//       d = +prompt ("На сколько оцените его?", "");
-
-// personalMovieDB.movies[a] = b;
-// personalMovieDB.movies[c] = d;
-
-// console.log(personalMovieDB);
-
-// Task#2
-// let n=0;
-// while (n<2) {
-// n++;
-// const a = prompt ("Один из последних просмотренных фильмов?", ""),
-//       b = +prompt ("На сколько оцените его?", "");
-
-//       personalMovieDB.movies[a] = b;
-// };
-// // console.log(n); //control n
-// console.log(personalMovieDB);
-
-// Task#3 if
-let i=0;
-if (i<2,i++) {
-    const a = prompt ("Один из последних просмотренных фильмов?", ""),
-          b = +prompt ("На сколько оцените его?", "");
-          personalMovieDB.movies[a] = b;
-}
-console.log(personalMovieDB);
-const numberOfFilms = prompt ("Сколько фильмов Вы уже посмотрели", '');
-=======
 const numberOfFilms = +prompt ("Сколько фильмов Вы уже посмотрели", '');
->>>>>>> change promt to +prompt
 
 const personalMovieDB = {
     count: numberOfFilms,
