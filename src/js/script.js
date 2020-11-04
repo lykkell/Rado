@@ -98,3 +98,11 @@ const personalMovieDB = {
 // // console.log(n); //control n
 // console.log(personalMovieDB);
 
+// Task#3 if
+let i=0;
+if (i<2,i++) {
+    const a = prompt ("Один из последних просмотренных фильмов?", ""),
+          b = +prompt ("На сколько оцените его?", "");
+          personalMovieDB.movies[a] = b;
+}
+console.log(personalMovieDB);
