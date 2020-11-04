@@ -75,26 +75,26 @@ const personalMovieDB = {
     genres: [],
     privat: false
 };
-Task#1
-const a = prompt ("Один из последних просмотренных фильмов?", ""),
-      b = +prompt ("На сколько оцените его?", ""),
-      c = prompt ("Один из последних просмотренных фильмов?", ""),
-      d = +prompt ("На сколько оцените его?", "");
-
-personalMovieDB.movies[a] = b;
-personalMovieDB.movies[c] = d;
-
-console.log(personalMovieDB);
-
-
-// let n=0;
-// while (n<2) {
-// n++;
+// Task#1
 // const a = prompt ("Один из последних просмотренных фильмов?", ""),
-//       b = +prompt ("На сколько оцените его?", "");
+//       b = +prompt ("На сколько оцените его?", ""),
+//       c = prompt ("Один из последних просмотренных фильмов?", ""),
+//       d = +prompt ("На сколько оцените его?", "");
 
-//       personalMovieDB.movies[a] = b;
-// }
+// personalMovieDB.movies[a] = b;
+// personalMovieDB.movies[c] = d;
 
 // console.log(personalMovieDB);
-// console.log(n);
+
+// Task#2
+let n=0;
+while (n<2) {
+n++;
+const a = prompt ("Один из последних просмотренных фильмов?", ""),
+      b = +prompt ("На сколько оцените его?", "");
+
+      personalMovieDB.movies[a] = b;
+};
+// console.log(n); //control n
+console.log(personalMovieDB);
+
