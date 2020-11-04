@@ -44,14 +44,14 @@ const personalMovieDB = {
 // console.log(personalMovieDB);
 
 // Task#2
-let n=0;
-while (n<2) {
-n++;
-const a = prompt ("Один из последних просмотренных фильмов?", ""),
-      b = +prompt ("На сколько оцените его?", "");
+// let n=0;
+// while (n<2) {
+// n++;
+// const a = prompt ("Один из последних просмотренных фильмов?", ""),
+//       b = +prompt ("На сколько оцените его?", "");
 
-      personalMovieDB.movies[a] = b;
-};
-// console.log(n); //control n
-console.log(personalMovieDB);
+//       personalMovieDB.movies[a] = b;
+// };
+// // console.log(n); //control n
+// console.log(personalMovieDB);
 
