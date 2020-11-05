@@ -21,17 +21,17 @@
 
 Проверить, чтобы все работало без ошибок в консоли */
 
-// 'use strict';
+'use strict';
 
-// const numberOfFilms = prompt ("Сколько фильмов Вы уже посмотрели", '');
+const numberOfFilms = +prompt ("Сколько фильмов Вы уже посмотрели", '');
 
-// const personalMovieDB = {
-//     count: numberOfFilms,
-//     movies: {},
-//     actors: {},
-//     genres: [],
-//     privat: false
-// };
+const personalMovieDB = {
+    count: numberOfFilms,
+    movies: {},
+    actors: {},
+    genres: [],
+    privat: false
+};
 // // Task#1
 // // const a = prompt ("Один из последних просмотренных фильмов?", ""),
 // //       b = +prompt ("На сколько оцените его?", ""),
@@ -56,25 +56,36 @@
 // // console.log(personalMovieDB);
 
 // // Task#3 For
-// for (let i =0; i < 2; i++) {
-//     const a = prompt ("Один из последних просмотренных фильмов?", ""),
-//           b = +prompt ("На сколько оцените его?", "");
+for (let i =0; i < 2; i++) {
+    const a = prompt ("Один из последних просмотренных фильмов?", ""),
+          b = +prompt ("На сколько оцените его?", "");
 
-    
-
-//     if (a != null && b !=null && a != '' && b != '' && a.length < 10) {
+    if (a != null && b !=null && a != '' && b != '' && a.length < 10) {
         
-//         personalMovieDB.movies[a] = b;
-//         console.log ("done");
+        personalMovieDB.movies[a] = b;
+        console.log ("done");
         
-//     } else {
-//         console.log ("error");
-//         i--;
-//     }
-// }
+    } else {
+        console.log ("error");
+        i--;
+    }
+}
 // console.log(personalMovieDB);
-'use strict';
 
-const logg = "Hello biG World";
-console.log(logg.toLocaleLowerCase(6,15));
-console.log(logg.slice(6,10));
+// task personalMovieDB
+
+
+     if (personalMovieDB.count < 10) {
+        console.log ("Просмотрено мало фильмов");
+    } else if (personalMovieDB.count > 30) {
+        console.log ("Вы киноман");
+    } else if (personalMovieDB.count >= 10) {
+        console.log ("Вы классический зритель");
+    } else {
+        console.log ("Произошла ошибка");
+    }
+
+
+// const logg = "Hello biG World";
+// console.log(logg.toLocaleLowerCase(6,15));
+// console.log(logg.slice(6,10));
