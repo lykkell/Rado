@@ -21,56 +21,60 @@
 
 Проверить, чтобы все работало без ошибок в консоли */
 
-'use strict';
+// 'use strict';
 
-const numberOfFilms = prompt ("Сколько фильмов Вы уже посмотрели", '');
+// const numberOfFilms = prompt ("Сколько фильмов Вы уже посмотрели", '');
 
-const personalMovieDB = {
-    count: numberOfFilms,
-    movies: {},
-    actors: {},
-    genres: [],
-    privat: false
-};
-// Task#1
-// const a = prompt ("Один из последних просмотренных фильмов?", ""),
-//       b = +prompt ("На сколько оцените его?", ""),
-//       c = prompt ("Один из последних просмотренных фильмов?", ""),
-//       d = +prompt ("На сколько оцените его?", "");
-
-// personalMovieDB.movies[a] = b;
-// personalMovieDB.movies[c] = d;
-
-// console.log(personalMovieDB);
-
-// Task#2
-// let n=0;
-// while (n<2) {
-// n++;
-// const a = prompt ("Один из последних просмотренных фильмов?", ""),
-//       b = +prompt ("На сколько оцените его?", "");
-
-//       personalMovieDB.movies[a] = b;
+// const personalMovieDB = {
+//     count: numberOfFilms,
+//     movies: {},
+//     actors: {},
+//     genres: [],
+//     privat: false
 // };
-// // console.log(n); //control n
-// console.log(personalMovieDB);
+// // Task#1
+// // const a = prompt ("Один из последних просмотренных фильмов?", ""),
+// //       b = +prompt ("На сколько оцените его?", ""),
+// //       c = prompt ("Один из последних просмотренных фильмов?", ""),
+// //       d = +prompt ("На сколько оцените его?", "");
 
-// Task#3 For
-for (let i =0; i < 2; i++) {
-    const a = prompt ("Один из последних просмотренных фильмов?", ""),
-          b = +prompt ("На сколько оцените его?", "");
+// // personalMovieDB.movies[a] = b;
+// // personalMovieDB.movies[c] = d;
+
+// // console.log(personalMovieDB);
+
+// // Task#2
+// // let n=0;
+// // while (n<2) {
+// // n++;
+// // const a = prompt ("Один из последних просмотренных фильмов?", ""),
+// //       b = +prompt ("На сколько оцените его?", "");
+
+// //       personalMovieDB.movies[a] = b;
+// // };
+// // // console.log(n); //control n
+// // console.log(personalMovieDB);
+
+// // Task#3 For
+// for (let i =0; i < 2; i++) {
+//     const a = prompt ("Один из последних просмотренных фильмов?", ""),
+//           b = +prompt ("На сколько оцените его?", "");
 
     
 
-    if (a != null && b !=null && a != '' && b != '' && a.length < 10) {
+//     if (a != null && b !=null && a != '' && b != '' && a.length < 10) {
         
-        personalMovieDB.movies[a] = b;
-        console.log ("done");
+//         personalMovieDB.movies[a] = b;
+//         console.log ("done");
         
-    } else {
-        console.log ("error");
-        i--;
-    }
-}
+//     } else {
+//         console.log ("error");
+//         i--;
+//     }
+// }
+// console.log(personalMovieDB);
+'use strict';
 
-console.log(personalMovieDB);
+const logg = "Hello biG World";
+console.log(logg.toLocaleLowerCase(6,15));
+console.log(logg.slice(6,10));
